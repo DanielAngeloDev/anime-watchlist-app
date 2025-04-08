@@ -75,7 +75,8 @@ function App() {
     .sort((a, b) => a.prioridade - b.prioridade);
 
   return (
-    <div className="min-h-screen bg-background text-foreground p-4 flex flex-col items-center">
+    <div className=" bg-background text-foreground flex-col 
+    min-h-screen flex items-center justify-center p-4">
       <Card className="w-full max-w-2xl z-10">
         <CardContent className="p-4 sm:p-6 flex flex-col gap-4">
           <h1 className="text-2xl sm:text-3xl font-bold text-center">
